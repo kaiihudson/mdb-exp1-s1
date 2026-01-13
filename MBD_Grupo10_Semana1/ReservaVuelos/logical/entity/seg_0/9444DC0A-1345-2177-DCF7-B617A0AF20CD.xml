@@ -72,6 +72,7 @@
 <engineerTo>
 <item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -117,10 +118,11 @@
 <item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
 </engineerTo>
 <referedAttribute>BBA49A8D-B1A4-00AD-5D74-BDAA3FCE68CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

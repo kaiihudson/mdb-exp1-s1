@@ -136,6 +136,30 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cargo" id="385E4950-20ED-21D6-81B2-23AFCFF78F72">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:47:22 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp" id="2F763CD3-3699-69CE-F54B-8D1626B25B9E">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:49:03 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="07565567-0299-9F99-4BAD-4028F8EAA525" name="EMPLEADO PK">

@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B39AEC41-1201-4A8F-646D-B7247AE36FEA" name="EMPLEADO_PILOTO">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:47:52 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="F798CDCA-EE1F-475D-E246-5A6029B979FD">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:48:03 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_acumuladas" id="A794BA28-643A-9374-77D5-597D61E4427B">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:48:07 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -107,6 +107,18 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="equipaje_asociado" id="73775ECC-F6EB-8260-1154-6A9BE4928479">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:49:57 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3E21D682-904C-76C8-5F0F-93E33C19DBC6" name="PASAJERO PK">

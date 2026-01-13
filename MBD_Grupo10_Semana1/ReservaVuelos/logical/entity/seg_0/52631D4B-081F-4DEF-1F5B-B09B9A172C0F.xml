@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52631D4B-081F-4DEF-1F5B-B09B9A172C0F" name="EQUIPAJE">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:50:21 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_equipaje" id="74D43A5B-6188-D8E9-F19F-203574F620A3">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:50:27 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="00C9BB2D-5154-8B02-87DB-926B7F370000">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:50:39 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="06626E46-9103-5093-5444-ADBB1BFFA6BA">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:50:51 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="C2339F66-7117-6983-A303-47AD146EE2E5">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:50:53 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

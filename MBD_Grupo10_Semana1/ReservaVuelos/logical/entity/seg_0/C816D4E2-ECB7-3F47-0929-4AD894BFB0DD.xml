@@ -28,6 +28,20 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="avion" id="A3AC0FDE-EAEE-9363-5242-B9409BB37D07">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:45:36 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="fechaDespegue" id="BC445671-CE7D-681B-49A4-14310090981B">
 <createdBy>msuarez</createdBy>
 <createdTime>2026-01-07 18:13:46 UTC</createdTime>
@@ -40,7 +54,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="horaSalida" id="07054EAA-2D1C-0B62-1079-9960C16A95DB">
+<Attribute name="horaDespegue" id="07054EAA-2D1C-0B62-1079-9960C16A95DB">
 <createdBy>msuarez</createdBy>
 <createdTime>2026-01-07 18:15:45 UTC</createdTime>
 <ownerDesignName>ReservaVuelos</ownerDesignName>
@@ -52,6 +66,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lugarDespegue" id="51B5006B-28C3-F2B2-0F63-D5BDAE53CE3B">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:41:18 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fechaLlegada" id="D60F461A-6ABE-39F6-6C62-1B8B7CEBB160">
 <createdBy>msuarez</createdBy>
@@ -77,6 +105,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lugarLlegada" id="0EEB622C-9EE8-9BEA-5A24-FF9EE04A8108">
+<createdBy>dell</createdBy>
+<createdTime>2026-01-13 12:41:26 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
